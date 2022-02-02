@@ -7,35 +7,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
     <link rel="icon" type="image/x-icon" href="renaldi.jpg">
+
+    <style>
+        body {
+            background-color: rgb(204, 204, 255);
+        }
+
+        h3 {
+            font-weight: bold;
+        }
+
+        #head-brand {
+            text-align: center;
+        }
+
+        #about {
+            margin-left: 30px;
+        }
+
+        #education {
+            margin-left: 30px;
+        }
+
+        #work {
+            margin-left: 30px;
+        }
+
+        #skill {
+            margin-left: 30px;
+        }
+
+        #interest {
+            margin-left: 30px;
+        }
+
+        #organization {
+            margin-left: 30px;
+        }
+
+        #linkedin {
+            margin-left: 30px;
+        }
+
+        .pharag {
+            padding: 0px 25px;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border-style: groove;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+        }
+
+        .number-table {
+            text-align: center;
+        }
+
+        .pad-table {
+            padding-left: 7px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Ini Section Foto Diri dan Nama Lengkap -->
-    <section>
-        <center>
-            <h1>PORTOFOLIO</h1>
-            <!-- Ini Bagian Foto Firi -->
-            <img src="renaldi.jpg" width="200px" alt="Foto Renaldi Noviandi">
-            <!-- Ini Bagian Nama Lengkap -->
-            <h2>RENALDI NOVIANDI</h2>
-            <p>renaldinoviandi9@gmail.com | 083845405765</p>
-        </center>
+    <section id="head-brand">
+        <h1>PORTOFOLIO</h1>
+        <!-- Ini Bagian Foto Firi -->
+        <img style="border-radius: 30%;" src="renaldi.jpg" width="200px" alt="Foto Renaldi Noviandi">
+        <!-- Ini Bagian Nama Lengkap -->
+        <h2>RENALDI NOVIANDI</h2>
+        <p style="color: blue;">renaldinoviandi9@gmail.com | 083845405765</p>
     </section>
     <!-- Ini Section Untuk Ringkasan -->
-    <section>
+    <section id="about">
         <h3>TENTANG SAYA</h3>
-        <p>
+        <p class="pharag">
             Saya adalah lulusan dari Politeknik Negeri Subang tepatnya di jurusan Manajemen Informatika. Saya
             berminat untuk bekerja sebagai Web Developer.<br>
             Alamat Saya : <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desa : Kasomalang Wetan <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kecamatan : Kasomalang <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kabupaten/Kota : Subang <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provinsi : Jawa Barat <br>
+            Desa : Kasomalang Wetan <br>
+            Kecamatan : Kasomalang <br>
+            Kabupaten/Kota : Subang <br>
+            Provinsi : Jawa Barat <br>
         </p>
     </section>
     <!-- Ini Section Untuk Pendidikan -->
-    <section>
+    <section id="education">
         <h3>PENDIDIKAN</h3>
         <ul>
             <li>SD Negeri Kasomalang 2 | 2014</li>
@@ -45,12 +109,12 @@
         </ul>
     </section>
     <!-- Ini Section Untuk Pengalaman Kerja -->
-    <section>
+    <section id="work">
         <h3>PENGALAMAN KERJA</h3>
-        <p><strong>Freelance</strong> Web App</p>
+        <p class="pharag"><strong>Freelance</strong> Web App</p>
     </section>
     <!-- Ini Section Untuk Skill Tambahan -->
-    <section>
+    <section id="skill">
         <h3>SKILL TAMBAHAN</h3>
         <ol>
             <li>HTML</li>
@@ -60,7 +124,7 @@
         </ol>
     </section>
     <!-- Ini Section Untuk Interest -->
-    <section>
+    <section id="interest">
         <h3>INTEREST</h3>
         <ul>
             <li>Frontend Web Developer</li>
@@ -68,7 +132,7 @@
         </ul>
     </section>
     <!-- Ini section untuk pengalaman organisasi -->
-    <section>
+    <section id="organization">
         <h3>PENGALAMAN ORGANISASI</h3>
         <table>
             <tr>
@@ -78,35 +142,38 @@
                 <th>Tahun Keanggotaan</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Paduan Suara</td>
-                <td>Anggota</td>
-                <td>2018 - 2019</td>
+                <td class="number-table">1</td>
+                <td class="pad-table">Paduan Suara</td>
+                <td class="pad-table">Anggota</td>
+                <td class="pad-table">2018 - 2019</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>Marawis</td>
-                <td>Ketua</td>
-                <td>2018 - 2019</td>
+                <td class="number-table">2</td>
+                <td class="pad-table">Marawis</td>
+                <td class="pad-table">Ketua</td>
+                <td class="pad-table">2018 - 2019</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>English Students Alliance</td>
-                <td>Anggota</td>
-                <td>2020 - 2021</td>
+                <td class="number-table">3</td>
+                <td class="pad-table">English Students Alliance</td>
+                <td class="pad-table">Anggota</td>
+                <td class="pad-table">2020 - 2021</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>Himpunan Manajemen Informatika</td>
-                <td>Ketua Departemen Ristek</td>
-                <td>2021 - Sedang Berlangsung</td>
+                <td class="number-table">4</td>
+                <td class="pad-table">Himpunan Manajemen Informatika</td>
+                <td class="pad-table">Ketua Departemen Ristek</td>
+                <td class="pad-table">2021 - Sedang Berlangsung</td>
             </tr>
         </table>
     </section>
     <!-- Ini section untuk akun linkind  -->
-    <section>
+    <section id="linkedin">
         <h3>LINKEDIN</h3>
-        Linkedin <a href="https://www.linkedin.com/in/renaldi-noviandi-422465197/">Renaldi Noviandi </a>
+        <p class="pharag">
+            Linkedin <a style="color: blue;" href="https://www.linkedin.com/in/renaldi-noviandi-422465197/">Renaldi
+                Noviandi</a>
+        </p>
     </section>
 </body>
 
