@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgb(204, 204, 255);
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#head-brand {
+    text-align: center;
+}
+
+#about {
+    margin-left: 30px;
+}
+
+#education {
+    margin-left: 30px;
+}
+
+#work {
+    margin-left: 30px;
+}
+
+#skill {
+    margin-left: 30px;
+}
+
+#interest {
+    margin-left: 30px;
+}
+
+#organization {
+    margin-left: 30px;
+}
+
+#linkedin {
+    margin-left: 30px;
+}
+
+.pharag {
+    padding: 0px 25px;
+}
+
+table,
+tr,
+th,
+td {
+    border-style: groove;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+.number-table {
+    text-align: center;
+}
+
+.pad-table {
+    padding-left: 7px;
+}
